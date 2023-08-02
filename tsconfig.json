@@ -16,6 +16,23 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@controllers/*": ["src/controllers/*"],
+      "@dtos/*": ["src/models/dtos/*"],
+      "@entities/*": ["src/models/entities/*"],
+      "@entities": ["src/models/entities"],
+      "@enums/*": ["src/models/enums/*"],
+      "@interfaces/*": ["src/models/interfaces/*"],
+      "@modules/*": ["src/modules/*"],
+      "@repositories/*": ["src/providers/repositories/*"],
+      "@services/*": ["src/providers/services/*"],
+      "@dataSources/*": ["src/providers/data_sources/*"],
+      "@middlewares/*": ["src/providers/middlewares/*"],
+      "@src/*": ["src/*"],
+      "@config/*": ["src/config/*"],
+      "@mocks/*": ["test/mocks/*"],
+      "@testUtils": ["test/utils"]
+    }
   }
 }
