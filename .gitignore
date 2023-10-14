@@ -37,3 +37,6 @@ lerna-debug.log*
 # postgres storage
 /pgadmin-data
 /pgdata
+
+# Environment
+.env.*
